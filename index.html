@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Content aware video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>How-to make coconut crumble</h1>
+  <div class="recipe">
+    <div id="vid" class="video-container">
+      <video autoplay loop muted>
+        <source src="crumble.mp4" type="video/mp4">
+      </video>
+      <img id="mute" src="audio.png"></img>
+      <div id="progress-bar"></div>
+    </div>
+    <div id="vidtxt" class="method">
+      <span class="step" data-time="0">
+        Preheat oven to 250°f and line a 1/4 sheet tray with parchment.
+      </span>
+      <span class="step" data-time="7.5">
+        Mix <span class="ingredient">40 g milk powder</span>, <span class="ingredient">40 g flour</span>, <span class="ingredient">12 g cornsarch</span>, <span class="ingredient">25 g sugar</span>, <span class="ingredient">25 g unsweetened flaked coconut</span> and <span class="ingredient">2 g salt</span> in a bowl.
+      </span>
+      <span class="step" data-time="11">
+        Add <span class="ingredient">55 g melted butter</span> and stir with a spatula until crumbly.
+      </span>
+      <span class="step" data-time="19">
+        Put onto a baking tray and bake 20 minutes or until light golden brown. Let cool.
+      </span>
+      <span class="step" data-time="39">
+        Put crumble into a bowl and toss with the <span class="ingredient">20 g milk powder</span> and <span class="ingredient">25 g unsweetened flaked coconut</span> until evenly distributed.
+      </span>
+      <span class="step" data-time="56">
+        Add <span class="ingredient">90 g good quality white chocolate, melted and cooled</span> and stir until clumps form.
+      </span>
+      <span class="step" data-time="68">
+        Spread crumbs onto sheet tray to cool completely.
+      </span>
+    </div>
+  </div>
+
+  <div class="about">
+    <p><strong>What is this?</strong> Video recipes are great but sometimes you may just want to view a specific segment. Above, you can mouseover an ordered list item to seek its position in the video.</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
